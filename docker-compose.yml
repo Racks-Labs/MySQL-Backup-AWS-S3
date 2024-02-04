@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  backups3:
+    build: .
+    env_file:
+      - .env
